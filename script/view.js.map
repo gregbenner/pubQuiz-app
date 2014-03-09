@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "view.js",
+  "sourceRoot": "../coffee/",
+  "sources": [
+    "view.coffee"
+  ],
+  "names": [],
+  "mappings": "AAqByE"
+}

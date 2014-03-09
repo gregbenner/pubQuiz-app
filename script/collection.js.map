@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "collection.js",
+  "sourceRoot": "../coffee/",
+  "sources": [
+    "collection.coffee"
+  ],
+  "names": [],
+  "mappings": "AAkDQ"
+}

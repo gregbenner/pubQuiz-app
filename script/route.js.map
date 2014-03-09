@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "route.js",
+  "sourceRoot": "../coffee/",
+  "sources": [
+    "route.coffee"
+  ],
+  "names": [],
+  "mappings": "AAqByE"
+}

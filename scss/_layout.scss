@@ -1,0 +1,57 @@
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.row {
+  max-width: 100%;
+}
+
+body {
+  background: #2d2c2c;
+}
+
+article {
+  background: $question-body;
+}
+
+.article-header {
+  margin-bottom: 20%;
+  margin-top: 23px;
+}
+
+.players-title-bar {
+  margin-bottom: 50px;
+}
+
+.question-container {
+  width: 78.5%;
+  margin: auto;
+  background: #FFF;
+  padding: 30px 15px 50px 15px;
+}
+
+footer {
+  width: 100%!important;
+  padding-bottom: 62px;
+  position: absolute;
+  bottom: 0;
+
+  .icon-signal {
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #575656;
+  }
+  .icon-phone_outline {
+    display: block;
+    font-size: 92px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+}

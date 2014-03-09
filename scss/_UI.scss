@@ -1,0 +1,75 @@
+.center_it {
+  margin: auto;
+  text-align: center;
+}
+
+.players-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .player-info {
+    width: 100%;
+    margin-bottom: 13px;
+    @include clearfix;
+  }
+}
+
+.quizzard-logo-small {
+  float: right;
+  text-align: center;
+}
+
+.players-title-bar {
+
+  .players-title {
+    display: block;
+    text-indent: 7px;
+    width: 74%;
+  }
+
+  .score-title {
+    display: block;
+    width: 21%;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+}
+
+.portrait-small {
+  transition : border 500ms ease-out;
+  -webkit-transition : border 500ms ease-out;
+  -moz-transition : border 500ms ease-out;
+  -o-transition : border 500ms ease-out;
+
+  border-radius: 50%;
+  border: solid 5px $ui-portrait-border;
+  width: 69px;
+  width: 22%;
+  height: 69px;
+  height: 22%;
+  overflow: hidden;
+  float: left;
+  &:hover {
+    border: solid 5px $question-heading;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.player-name-small {
+  float: left;
+  line-height: 22%;
+  margin-left: 5%;
+  width: 53%;
+}
+
+.player-score-small {
+  float: right;
+  line-height: 22%;
+  margin-left: 5%;
+  width: 15%;
+}
